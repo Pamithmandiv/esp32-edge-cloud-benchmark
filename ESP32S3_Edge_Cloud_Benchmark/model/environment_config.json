@@ -1,0 +1,30 @@
+{
+    "model_name": "Larger",
+    "features": [
+        "temperature_c",
+        "relative_humidity_pct",
+        "mq135_raw"
+    ],
+    "feature_count": 3,
+    "mean": [
+        27.60478415128635,
+        40.92438536769114,
+        79.41834451901566
+    ],
+    "scale": [
+        0.08143324075563384,
+        0.3641076066472671,
+        4.832257746929564
+    ],
+    "int8_threshold": 0.2532360553741455,
+    "input_quantization": {
+        "scale": 0.062745101749897,
+        "zero_point": -1
+    },
+    "output_quantization": {
+        "scale": 0.08137904852628708,
+        "zero_point": 0
+    },
+    "model_size_bytes": 3544,
+    "validation_type": "experimental_baseline_labels"
+}

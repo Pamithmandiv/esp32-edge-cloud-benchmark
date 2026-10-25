@@ -1,0 +1,102 @@
+[
+    {
+        "source": "normal_test",
+        "features": [
+            27.5801953125,
+            40.22541668301046,
+            82.0
+        ],
+        "expected_int8_score": 0.016579927876591682,
+        "expected_status": "NORMAL"
+    },
+    {
+        "source": "normal_test",
+        "features": [
+            27.5794140625,
+            40.21952124943463,
+            82.0
+        ],
+        "expected_int8_score": 0.018984343856573105,
+        "expected_status": "NORMAL"
+    },
+    {
+        "source": "normal_test",
+        "features": [
+            27.5751171875,
+            40.2422864759342,
+            82.0
+        ],
+        "expected_int8_score": 0.018366944044828415,
+        "expected_status": "NORMAL"
+    },
+    {
+        "source": "normal_test",
+        "features": [
+            27.5782421875,
+            40.22520152857683,
+            83.0
+        ],
+        "expected_int8_score": 0.02343146689236164,
+        "expected_status": "NORMAL"
+    },
+    {
+        "source": "normal_test",
+        "features": [
+            27.5778515625,
+            40.22515849817608,
+            82.0
+        ],
+        "expected_int8_score": 0.01958811655640602,
+        "expected_status": "NORMAL"
+    },
+    {
+        "source": "abnormal_challenge",
+        "features": [
+            27.4481640625,
+            41.66927483829939,
+            73.0
+        ],
+        "expected_int8_score": 0.028680110350251198,
+        "expected_status": "NORMAL"
+    },
+    {
+        "source": "abnormal_challenge",
+        "features": [
+            27.558515625,
+            42.10428444720501,
+            73.0
+        ],
+        "expected_int8_score": 0.8646251559257507,
+        "expected_status": "ABNORMAL"
+    },
+    {
+        "source": "abnormal_challenge",
+        "features": [
+            27.5610546875,
+            42.02820860115409,
+            74.0
+        ],
+        "expected_int8_score": 0.8168585300445557,
+        "expected_status": "ABNORMAL"
+    },
+    {
+        "source": "abnormal_challenge",
+        "features": [
+            27.6778515625,
+            41.05754326045214,
+            104.0
+        ],
+        "expected_int8_score": 6.940946102142334,
+        "expected_status": "ABNORMAL"
+    },
+    {
+        "source": "abnormal_challenge",
+        "features": [
+            27.6891796875,
+            41.03545470747387,
+            93.0
+        ],
+        "expected_int8_score": 1.5804367065429688,
+        "expected_status": "ABNORMAL"
+    }
+]
